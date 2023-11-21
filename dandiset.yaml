@@ -117,9 +117,10 @@ description: "The Visual Behavior Ophys dataset was generated using in vivo 2-ph
   recommended route for interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/)
   which provides methods for downloading and processing data. Documentation of the
   AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. \n\nThere
-  are useful summary metadata tables that are unavailable in this DANDI-set. You can
-  use the AllenSDK to download these Pandas/csv tables. See this notebook (https://allensdk.readthedocs.io/en/latest/_static/examples/nb/visual_behavior_ophys_data_access.html)
-  for information on downloading these data and the associated NWB files.\n\nPublicly
+  are several metadata summary tables that are available as \"related resources\"
+  associated with this DANDI-set. You can also use the AllenSDK to download these
+  tables. See this notebook (https://allensdk.readthedocs.io/en/latest/_static/examples/nb/visual_behavior_ophys_data_access.html)
+  for information on downloading the metadata and the associated NWB files.\n\nPublicly
   available pre-prints using this dataset include: \n\nStimulus novelty uncovers coding
   diversity in visual cortical circuits\nhttps://doi.org/10.1101/2023.02.14.528085
   \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit in
