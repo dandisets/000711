@@ -99,6 +99,7 @@ contributor:
   - dcite:ProjectAdministration
   schemaKey: Person
 dateCreated: '2023-11-14T17:08:29.884713+00:00'
+datePublished: '2023-11-21T02:01:55.332196+00:00'
 description: "The Visual Behavior Ophys dataset was generated using in vivo 2-photon
   calcium imaging (also called optical physiology, or “ophys”) to measure the activity
   of genetically identified neurons in the visual cortex of mice performing a go/no-go
@@ -148,6 +149,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000711/versions/draft/assets/
 name: Allen Institute - Visual Behavior - Optical Physiology
 protocol: []
+publishedBy:
+  endDate: '2023-11-21T02:01:55.332196+00:00'
+  id: urn:uuid:e63a4a93-4be6-4123-99f4-abb583ddaed6
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-11-21T02:01:55.332196+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e1ed99db-73a9-4858-b2d7-d4ff4e7c17d5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Ophys Sessions Metadata Table
   relation: dcite:IsMetadataFor
