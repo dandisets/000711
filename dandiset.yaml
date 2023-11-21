@@ -33,8 +33,8 @@ assetsSummary:
   - PlaneSegmentation
   - OpticalChannel
 citation: Allen Institute for Brain Science; Olsen, Shawn; Garrett, Marina; Groblewski,
-  Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version 0.231121.0201)
-  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000711/0.231121.0201
+  Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version 0.231121.1730)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000711/0.231121.1730
 contributor:
 - contactPoint: []
   identifier: https://ror.org/00dcv1019
@@ -99,7 +99,7 @@ contributor:
   - dcite:ProjectAdministration
   schemaKey: Person
 dateCreated: '2023-11-14T17:08:29.884713+00:00'
-datePublished: '2023-11-21T02:01:55.332196+00:00'
+datePublished: '2023-11-21T17:30:05.290058+00:00'
 description: "The Visual Behavior Ophys dataset was generated using in vivo 2-photon
   calcium imaging (also called optical physiology, or “ophys”) to measure the activity
   of genetically identified neurons in the visual cortex of mice performing a go/no-go
@@ -127,9 +127,9 @@ description: "The Visual Behavior Ophys dataset was generated using in vivo 2-ph
   \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit in
   visual cortex\nhttps://doi.org/10.1101/2023.04.28.538575 \n\nFamiliarity modulated
   synapses model visual cortical circuit novelty responses\nhttps://doi.org/10.1101/2023.08.16.553635 "
-doi: 10.48324/dandi.000711/0.231121.0201
+doi: 10.48324/dandi.000711/0.231121.1730
 ethicsApproval: []
-id: DANDI:000711/0.231121.0201
+id: DANDI:000711/0.231121.1730
 identifier: DANDI:000711
 keywords:
 - mouse
@@ -147,17 +147,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000711/0.231121.0201/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000711/0.231121.1730/assets.yaml
 name: Allen Institute - Visual Behavior - Optical Physiology
 protocol: []
 publishedBy:
-  endDate: '2023-11-21T02:01:55.332196+00:00'
-  id: urn:uuid:e63a4a93-4be6-4123-99f4-abb583ddaed6
+  endDate: '2023-11-21T17:30:05.290058+00:00'
+  id: urn:uuid:e528945f-8172-4c62-baa9-02faae462c49
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-11-21T02:01:55.332196+00:00'
+  startDate: '2023-11-21T17:30:05.290058+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:e1ed99db-73a9-4858-b2d7-d4ff4e7c17d5
+  - id: urn:uuid:a2de9173-ca0f-4f60-b3a9-e3a633b330bd
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -180,6 +180,10 @@ relatedResource:
   relation: dcite:IsMetadataFor
   schemaKey: Resource
   url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_cells_table.csv
+- name: Natural Movie One
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/resources/Movie_TOE1.npy
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
@@ -187,6 +191,6 @@ studyTarget:
 - This dataset can be used to evaluate the influence of experience, expectation, and
   task engagement on neural coding and dynamics in excitatory and inhibitory cell
   populations.
-url: https://dandiarchive.org/dandiset/000711/0.231121.0201
-version: 0.231121.0201
+url: https://dandiarchive.org/dandiset/000711/0.231121.1730
+version: 0.231121.1730
 wasGeneratedBy: []
