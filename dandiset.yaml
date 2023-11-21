@@ -99,7 +99,7 @@ contributor:
   - dcite:ProjectAdministration
   schemaKey: Person
 dateCreated: '2023-11-14T17:08:29.884713+00:00'
-datePublished: '2023-11-21T02:01:55.332196+00:00'
+datePublished: '2023-11-21T17:30:05.290058+00:00'
 description: "The Visual Behavior Ophys dataset was generated using in vivo 2-photon
   calcium imaging (also called optical physiology, or “ophys”) to measure the activity
   of genetically identified neurons in the visual cortex of mice performing a go/no-go
@@ -150,13 +150,13 @@ manifestLocation:
 name: Allen Institute - Visual Behavior - Optical Physiology
 protocol: []
 publishedBy:
-  endDate: '2023-11-21T02:01:55.332196+00:00'
-  id: urn:uuid:e63a4a93-4be6-4123-99f4-abb583ddaed6
+  endDate: '2023-11-21T17:30:05.290058+00:00'
+  id: urn:uuid:e528945f-8172-4c62-baa9-02faae462c49
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-11-21T02:01:55.332196+00:00'
+  startDate: '2023-11-21T17:30:05.290058+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:e1ed99db-73a9-4858-b2d7-d4ff4e7c17d5
+  - id: urn:uuid:a2de9173-ca0f-4f60-b3a9-e3a633b330bd
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -179,6 +179,10 @@ relatedResource:
   relation: dcite:IsMetadataFor
   schemaKey: Resource
   url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_cells_table.csv
+- name: Natural Movie One
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/resources/Movie_TOE1.npy
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
