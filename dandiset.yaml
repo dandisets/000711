@@ -32,47 +32,26 @@ assetsSummary:
   - ImagingPlane
   - PlaneSegmentation
   - OpticalChannel
-citation: Allen Institute for Brain Science; Marina Garrett; Peter Groblewski; Shawn
-  Olsen (2023) Allen Institute - Visual Behavior - Optical Physiology (Version draft)
+citation: Allen Institute for Brain Science; Olsen, Shawn; Garrett, Marina; Groblewski,
+  Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000711/draft
 contributor:
 - contactPoint: []
-  email: ''
+  identifier: https://ror.org/00dcv1019
   includeInCitation: true
   name: Allen Institute for Brain Science
   roleName:
-  - dcite:Maintainer
   - dcite:Funder
   schemaKey: Organization
-  url: https://portal.brain-map.org/explore/circuits/visual-behavior-2p
-- affiliation: []
-  email: marinag@alleninstitute.org
-  identifier: 0000-0002-5271-2291
-  includeInCitation: true
-  name: Marina Garrett
-  roleName:
-  - dcite:Conceptualization
-  - dcite:ProjectLeader
-  - dcite:Validation
-  - dcite:DataCurator
-  - dcite:ContactPerson
-  schemaKey: Person
-- affiliation: []
-  email: peterg@alleninstitute.org
-  identifier: 0000-0002-6529-1414
-  includeInCitation: true
-  name: Peter Groblewski
-  roleName:
-  - dcite:Conceptualization
-  - dcite:ProjectLeader
-  - dcite:Supervision
-  - dcite:ProjectAdministration
-  schemaKey: Person
-- affiliation: []
+  url: http://alleninstitute.org/
+- affiliation:
+  - identifier: https://ror.org/03cpe7c52
+    name: Allen Institute
+    schemaKey: Affiliation
   email: shawno@alleninstitute.org
   identifier: 0000-0002-9568-7057
   includeInCitation: true
-  name: Shawn Olsen
+  name: Olsen, Shawn
   roleName:
   - dcite:Conceptualization
   - dcite:ProjectLeader
@@ -80,7 +59,8 @@ contributor:
   - dcite:Resources
   schemaKey: Person
 - affiliation:
-  - name: Allen Institute
+  - identifier: https://ror.org/03cpe7c52
+    name: Allen Institute
     schemaKey: Affiliation
   email: chris.morrison@alleninstitute.org
   identifier: 0000-0001-9419-3947
@@ -88,6 +68,35 @@ contributor:
   name: Morrison, Christopher
   roleName:
   - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03cpe7c52
+    name: Allen Institute
+    schemaKey: Affiliation
+  email: marinag@alleninstitute.org
+  identifier: 0000-0002-5271-2291
+  includeInCitation: true
+  name: Garrett, Marina
+  roleName:
+  - dcite:Conceptualization
+  - dcite:ProjectLeader
+  - dcite:Validation
+  - dcite:DataCurator
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03cpe7c52
+    name: Allen Institute
+    schemaKey: Affiliation
+  email: peterg@alleninstitute.org
+  identifier: 0000-0002-6529-1414
+  includeInCitation: true
+  name: Groblewski, Peter
+  roleName:
+  - dcite:Conceptualization
+  - dcite:ProjectLeader
+  - dcite:Supervision
+  - dcite:ProjectAdministration
   schemaKey: Person
 dateCreated: '2023-11-14T17:08:29.884713+00:00'
 description: "The Visual Behavior Ophys dataset was generated using in vivo 2-photon
