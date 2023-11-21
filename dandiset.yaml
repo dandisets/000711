@@ -33,8 +33,8 @@ assetsSummary:
   - PlaneSegmentation
   - OpticalChannel
 citation: Allen Institute for Brain Science; Olsen, Shawn; Garrett, Marina; Groblewski,
-  Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000711/draft
+  Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version 0.231121.0201)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000711/0.231121.0201
 contributor:
 - contactPoint: []
   identifier: https://ror.org/00dcv1019
@@ -127,8 +127,9 @@ description: "The Visual Behavior Ophys dataset was generated using in vivo 2-ph
   \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit in
   visual cortex\nhttps://doi.org/10.1101/2023.04.28.538575 \n\nFamiliarity modulated
   synapses model visual cortical circuit novelty responses\nhttps://doi.org/10.1101/2023.08.16.553635 "
+doi: 10.48324/dandi.000711/0.231121.0201
 ethicsApproval: []
-id: DANDI:000711/draft
+id: DANDI:000711/0.231121.0201
 identifier: DANDI:000711
 keywords:
 - mouse
@@ -146,7 +147,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000711/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000711/0.231121.0201/assets.yaml
 name: Allen Institute - Visual Behavior - Optical Physiology
 protocol: []
 publishedBy:
@@ -186,6 +187,6 @@ studyTarget:
 - This dataset can be used to evaluate the influence of experience, expectation, and
   task engagement on neural coding and dynamics in excitatory and inhibitory cell
   populations.
-url: https://dandiarchive.org/dandiset/000711/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000711/0.231121.0201
+version: 0.231121.0201
 wasGeneratedBy: []
